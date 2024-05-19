@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/eee4e23b78a04815af6d7e893681e958/artifacts
+end_time: 1716107588619
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eee4e23b78a04815af6d7e893681e958
+run_name: abundant-grouse-679
+run_uuid: eee4e23b78a04815af6d7e893681e958
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716107586076
+status: 4
+tags: []
+user_id: westwingtech

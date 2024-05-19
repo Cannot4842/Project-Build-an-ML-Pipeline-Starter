@@ -1,0 +1,230 @@
+2024-05-19 03:41:51,148 INFO    StreamThr :26042 [internal.py:wandb_internal():87] W&B internal server running at pid: 26042, started at: 2024-05-19 03:41:51.146016
+2024-05-19 03:41:51,150 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: status
+2024-05-19 03:41:51,151 INFO    WriterThread:26042 [datastore.py:open_for_write():85] open: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/run-naa5k2yi.wandb
+2024-05-19 03:41:51,153 DEBUG   SenderThread:26042 [sender.py:send():334] send: header
+2024-05-19 03:41:51,153 DEBUG   SenderThread:26042 [sender.py:send():334] send: run
+2024-05-19 03:41:51,465 INFO    SenderThread:26042 [dir_watcher.py:__init__():216] watching files in: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files
+2024-05-19 03:41:51,465 INFO    SenderThread:26042 [sender.py:_start_run_threads():1065] run started: naa5k2yi with start time 1716104510.168491
+2024-05-19 03:41:51,465 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: summary_record
+2024-05-19 03:41:51,466 INFO    SenderThread:26042 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-19 03:41:51,470 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: check_version
+2024-05-19 03:41:51,470 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: check_version
+2024-05-19 03:41:51,549 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: run_start
+2024-05-19 03:41:51,560 DEBUG   HandlerThread:26042 [system_info.py:__init__():31] System info init
+2024-05-19 03:41:51,560 DEBUG   HandlerThread:26042 [system_info.py:__init__():46] System info init done
+2024-05-19 03:41:51,560 INFO    HandlerThread:26042 [system_monitor.py:start():151] Starting system monitor
+2024-05-19 03:41:51,560 INFO    SystemMonitor:26042 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-05-19 03:41:51,560 INFO    HandlerThread:26042 [system_monitor.py:probe():172] Collecting system info
+2024-05-19 03:41:51,562 INFO    SystemMonitor:26042 [interfaces.py:start():168] Started cpu
+2024-05-19 03:41:51,562 DEBUG   HandlerThread:26042 [system_info.py:probe():195] Probing system
+2024-05-19 03:41:51,562 INFO    SystemMonitor:26042 [interfaces.py:start():168] Started disk
+2024-05-19 03:41:51,563 INFO    SystemMonitor:26042 [interfaces.py:start():168] Started gpuapple
+2024-05-19 03:41:51,567 INFO    SystemMonitor:26042 [interfaces.py:start():168] Started memory
+2024-05-19 03:41:51,568 INFO    SystemMonitor:26042 [interfaces.py:start():168] Started network
+2024-05-19 03:41:51,570 DEBUG   HandlerThread:26042 [system_info.py:_probe_git():180] Probing git
+2024-05-19 03:41:51,592 DEBUG   HandlerThread:26042 [system_info.py:_probe_git():188] Probing git done
+2024-05-19 03:41:51,592 DEBUG   HandlerThread:26042 [system_info.py:probe():241] Probing system done
+2024-05-19 03:41:51,593 DEBUG   HandlerThread:26042 [system_monitor.py:probe():181] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.9.15', 'heartbeatAt': '2024-05-19T07:41:51.562815', 'startedAt': '2024-05-19T07:41:46.329850', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/Cannot4842/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': 'Taimoork14@outlook.com', 'root': '/Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter', 'host': 'timi-mac', 'username': 'westwingtech', 'executable': '/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3204, 'min': 600, 'max': 3204}, 'cpu_freq_per_core': [{'current': 3204, 'min': 600, 'max': 3204}], 'disk': {'total': 228.27386474609375, 'used': 151.70052337646484}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2024-05-19 03:41:51,593 INFO    HandlerThread:26042 [system_monitor.py:probe():182] Finished collecting system info
+2024-05-19 03:41:51,593 INFO    HandlerThread:26042 [system_monitor.py:probe():185] Publishing system info
+2024-05-19 03:41:51,593 DEBUG   HandlerThread:26042 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-05-19 03:41:51,593 ERROR   gpuapple  :26042 [gpu_apple.py:sample():83] GPU stats error: Command '['/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
+Traceback (most recent call last):
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 62, in sample
+    command = [str(self.binary_path), "--json"]
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/subprocess.py", line 424, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
+2024-05-19 03:41:51,594 DEBUG   HandlerThread:26042 [system_info.py:_save_pip():67] Saving pip packages done
+2024-05-19 03:41:51,594 DEBUG   HandlerThread:26042 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-05-19 03:41:52,468 INFO    Thread-208:26042 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/requirements.txt
+2024-05-19 03:41:52,468 INFO    Thread-208:26042 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/wandb-summary.json
+2024-05-19 03:41:52,468 INFO    Thread-208:26042 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/conda-environment.yaml
+2024-05-19 03:41:53,183 DEBUG   HandlerThread:26042 [system_info.py:_save_conda():86] Saving conda packages done
+2024-05-19 03:41:53,183 DEBUG   HandlerThread:26042 [system_info.py:_save_code():89] Saving code
+2024-05-19 03:41:53,184 WARNING HandlerThread:26042 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2024-05-19 03:41:53,184 DEBUG   HandlerThread:26042 [system_info.py:_save_patches():127] Saving git patches
+2024-05-19 03:41:53,217 DEBUG   HandlerThread:26042 [system_info.py:_save_patches():169] Saving git patches done
+2024-05-19 03:41:53,218 INFO    HandlerThread:26042 [system_monitor.py:probe():187] Finished publishing system info
+2024-05-19 03:41:53,218 DEBUG   SenderThread:26042 [sender.py:send():334] send: files
+2024-05-19 03:41:53,218 INFO    SenderThread:26042 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-05-19 03:41:53,219 INFO    SenderThread:26042 [sender.py:_save_file():1319] saving file diff.patch with policy now
+2024-05-19 03:41:53,226 DEBUG   SenderThread:26042 [sender.py:send():334] send: telemetry
+2024-05-19 03:41:53,226 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-19 03:41:53,227 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: stop_status
+2024-05-19 03:41:53,468 INFO    Thread-208:26042 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/conda-environment.yaml
+2024-05-19 03:41:53,468 INFO    Thread-208:26042 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/diff.patch
+2024-05-19 03:41:53,469 INFO    Thread-208:26042 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/wandb-metadata.json
+2024-05-19 03:41:53,522 DEBUG   SenderThread:26042 [sender.py:send():334] send: use_artifact
+2024-05-19 03:41:53,609 INFO    Thread-211:26042 [upload_job.py:push():143] Uploaded file /var/folders/18/0v0_2tg966l4rntt97bfmx0c0000gn/T/tmp7wuy8ypkwandb/27593r55-wandb-metadata.json
+2024-05-19 03:41:53,636 INFO    Thread-212:26042 [upload_job.py:push():143] Uploaded file /var/folders/18/0v0_2tg966l4rntt97bfmx0c0000gn/T/tmp7wuy8ypkwandb/vns276a1-diff.patch
+2024-05-19 03:41:53,637 ERROR   gpuapple  :26042 [gpu_apple.py:sample():83] GPU stats error: Command '['/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
+Traceback (most recent call last):
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 62, in sample
+    command = [str(self.binary_path), "--json"]
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/subprocess.py", line 424, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
+2024-05-19 03:41:54,475 INFO    Thread-208:26042 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/output.log
+2024-05-19 03:41:55,684 ERROR   gpuapple  :26042 [gpu_apple.py:sample():83] GPU stats error: Command '['/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
+Traceback (most recent call last):
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 62, in sample
+    command = [str(self.binary_path), "--json"]
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/subprocess.py", line 424, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
+2024-05-19 03:41:56,484 INFO    Thread-208:26042 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/output.log
+2024-05-19 03:41:56,804 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: status_report
+2024-05-19 03:41:57,737 ERROR   gpuapple  :26042 [gpu_apple.py:sample():83] GPU stats error: Command '['/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
+Traceback (most recent call last):
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 62, in sample
+    command = [str(self.binary_path), "--json"]
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/subprocess.py", line 424, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
+2024-05-19 03:41:59,787 ERROR   gpuapple  :26042 [gpu_apple.py:sample():83] GPU stats error: Command '['/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
+Traceback (most recent call last):
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 62, in sample
+    command = [str(self.binary_path), "--json"]
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/subprocess.py", line 424, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/westwingtech/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
+2024-05-19 03:42:01,561 DEBUG   SenderThread:26042 [sender.py:send():334] send: telemetry
+2024-05-19 03:42:01,564 DEBUG   SenderThread:26042 [sender.py:send():334] send: exit
+2024-05-19 03:42:01,564 INFO    SenderThread:26042 [sender.py:send_exit():557] handling exit code: 0
+2024-05-19 03:42:01,564 INFO    SenderThread:26042 [sender.py:send_exit():559] handling runtime: 10
+2024-05-19 03:42:01,566 INFO    SenderThread:26042 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-19 03:42:01,567 INFO    SenderThread:26042 [sender.py:send_exit():565] send defer
+2024-05-19 03:42:01,567 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:01,567 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 0
+2024-05-19 03:42:01,568 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:01,569 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-05-19 03:42:01,569 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 1
+2024-05-19 03:42:01,569 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:01,569 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 1
+2024-05-19 03:42:01,570 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:01,570 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-05-19 03:42:01,570 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 2
+2024-05-19 03:42:01,571 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:01,571 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 2
+2024-05-19 03:42:01,572 INFO    HandlerThread:26042 [system_monitor.py:finish():161] Stopping system monitor
+2024-05-19 03:42:01,593 DEBUG   SystemMonitor:26042 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-05-19 03:42:01,594 INFO    HandlerThread:26042 [interfaces.py:finish():175] Joined cpu
+2024-05-19 03:42:01,594 INFO    HandlerThread:26042 [interfaces.py:finish():175] Joined disk
+2024-05-19 03:42:01,594 DEBUG   SystemMonitor:26042 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-05-19 03:42:01,594 DEBUG   SystemMonitor:26042 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-05-19 03:42:01,594 INFO    HandlerThread:26042 [interfaces.py:finish():175] Joined gpuapple
+2024-05-19 03:42:01,595 INFO    HandlerThread:26042 [interfaces.py:finish():175] Joined memory
+2024-05-19 03:42:01,595 INFO    HandlerThread:26042 [interfaces.py:finish():175] Joined network
+2024-05-19 03:42:01,596 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:01,596 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-05-19 03:42:01,596 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 3
+2024-05-19 03:42:01,596 DEBUG   SenderThread:26042 [sender.py:send():334] send: telemetry
+2024-05-19 03:42:01,596 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:01,596 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 3
+2024-05-19 03:42:01,597 DEBUG   SenderThread:26042 [sender.py:send():334] send: stats
+2024-05-19 03:42:01,597 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:01,597 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-05-19 03:42:01,597 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 4
+2024-05-19 03:42:01,597 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:01,597 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 4
+2024-05-19 03:42:01,598 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:01,598 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-05-19 03:42:01,598 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 5
+2024-05-19 03:42:01,598 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:01,598 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 5
+2024-05-19 03:42:01,598 DEBUG   SenderThread:26042 [sender.py:send():334] send: summary
+2024-05-19 03:42:01,599 INFO    SenderThread:26042 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-19 03:42:01,599 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:01,599 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-05-19 03:42:01,599 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 6
+2024-05-19 03:42:01,599 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:01,599 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 6
+2024-05-19 03:42:01,600 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:01,600 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-05-19 03:42:01,606 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: status_report
+2024-05-19 03:42:01,753 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 7
+2024-05-19 03:42:01,753 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:01,753 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 7
+2024-05-19 03:42:01,753 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:01,754 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-05-19 03:42:01,887 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 8
+2024-05-19 03:42:01,887 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:01,887 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 8
+2024-05-19 03:42:01,888 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:01,888 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-05-19 03:42:01,889 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 9
+2024-05-19 03:42:01,889 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:01,889 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 9
+2024-05-19 03:42:01,890 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:01,890 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-05-19 03:42:01,890 INFO    SenderThread:26042 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-05-19 03:42:02,503 INFO    SenderThread:26042 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/wandb-summary.json
+2024-05-19 03:42:02,503 INFO    SenderThread:26042 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/output.log
+2024-05-19 03:42:02,504 INFO    SenderThread:26042 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/config.yaml
+2024-05-19 03:42:02,504 INFO    SenderThread:26042 [dir_watcher.py:finish():392] scan: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files
+2024-05-19 03:42:02,504 INFO    SenderThread:26042 [dir_watcher.py:finish():406] scan save: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/diff.patch diff.patch
+2024-05-19 03:42:02,504 INFO    SenderThread:26042 [dir_watcher.py:finish():406] scan save: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/requirements.txt requirements.txt
+2024-05-19 03:42:02,504 INFO    SenderThread:26042 [dir_watcher.py:finish():406] scan save: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/output.log output.log
+2024-05-19 03:42:02,509 INFO    SenderThread:26042 [dir_watcher.py:finish():406] scan save: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/config.yaml config.yaml
+2024-05-19 03:42:02,512 INFO    SenderThread:26042 [dir_watcher.py:finish():406] scan save: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/wandb-summary.json wandb-summary.json
+2024-05-19 03:42:02,517 INFO    SenderThread:26042 [dir_watcher.py:finish():406] scan save: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/conda-environment.yaml conda-environment.yaml
+2024-05-19 03:42:02,521 INFO    SenderThread:26042 [dir_watcher.py:finish():406] scan save: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/wandb-metadata.json wandb-metadata.json
+2024-05-19 03:42:02,522 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 10
+2024-05-19 03:42:02,526 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:02,526 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 10
+2024-05-19 03:42:02,527 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:02,528 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-05-19 03:42:02,528 INFO    SenderThread:26042 [file_pusher.py:finish():160] shutting down file pusher
+2024-05-19 03:42:02,567 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-19 03:42:02,567 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: poll_exit
+2024-05-19 03:42:02,875 INFO    Thread-217:26042 [upload_job.py:push():143] Uploaded file /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/conda-environment.yaml
+2024-05-19 03:42:02,917 INFO    Thread-213:26042 [upload_job.py:push():143] Uploaded file /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/requirements.txt
+2024-05-19 03:42:02,920 INFO    Thread-216:26042 [upload_job.py:push():143] Uploaded file /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/wandb-summary.json
+2024-05-19 03:42:02,923 INFO    Thread-214:26042 [upload_job.py:push():143] Uploaded file /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/output.log
+2024-05-19 03:42:02,931 INFO    Thread-215:26042 [upload_job.py:push():143] Uploaded file /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/files/config.yaml
+2024-05-19 03:42:03,135 INFO    Thread-207:26042 [sender.py:transition_state():585] send defer: 11
+2024-05-19 03:42:03,135 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:03,136 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 11
+2024-05-19 03:42:03,136 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:03,136 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-05-19 03:42:03,136 INFO    SenderThread:26042 [file_pusher.py:join():165] waiting for file pusher
+2024-05-19 03:42:03,136 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 12
+2024-05-19 03:42:03,137 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:03,137 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 12
+2024-05-19 03:42:03,137 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:03,138 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-05-19 03:42:03,381 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 13
+2024-05-19 03:42:03,382 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:03,382 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 13
+2024-05-19 03:42:03,382 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:03,382 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-05-19 03:42:03,382 INFO    SenderThread:26042 [sender.py:transition_state():585] send defer: 14
+2024-05-19 03:42:03,383 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: defer
+2024-05-19 03:42:03,383 DEBUG   SenderThread:26042 [sender.py:send():334] send: final
+2024-05-19 03:42:03,383 INFO    HandlerThread:26042 [handler.py:handle_request_defer():170] handle defer: 14
+2024-05-19 03:42:03,383 DEBUG   SenderThread:26042 [sender.py:send():334] send: footer
+2024-05-19 03:42:03,384 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: defer
+2024-05-19 03:42:03,384 INFO    SenderThread:26042 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-05-19 03:42:03,385 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-19 03:42:03,385 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: server_info
+2024-05-19 03:42:03,385 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: get_summary
+2024-05-19 03:42:03,385 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: poll_exit
+2024-05-19 03:42:03,386 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: sampled_history
+2024-05-19 03:42:03,386 DEBUG   SenderThread:26042 [sender.py:send_request():361] send_request: server_info
+2024-05-19 03:42:03,571 DEBUG   HandlerThread:26042 [handler.py:handle_request():144] handle_request: shutdown
+2024-05-19 03:42:03,572 INFO    HandlerThread:26042 [handler.py:finish():841] shutting down handler
+2024-05-19 03:42:04,391 INFO    WriterThread:26042 [datastore.py:close():299] close: /Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240519_034146-naa5k2yi/run-naa5k2yi.wandb
+2024-05-19 03:42:04,574 INFO    SenderThread:26042 [sender.py:finish():1491] shutting down sender
+2024-05-19 03:42:04,574 INFO    SenderThread:26042 [file_pusher.py:finish():160] shutting down file pusher
+2024-05-19 03:42:04,575 INFO    SenderThread:26042 [file_pusher.py:join():165] waiting for file pusher

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/eceaa29ce62c4a14b097904b361e7625/artifacts
+end_time: 1716107955610
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eceaa29ce62c4a14b097904b361e7625
+run_name: casual-flea-850
+run_uuid: eceaa29ce62c4a14b097904b361e7625
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716107886829
+status: 3
+tags: []
+user_id: westwingtech

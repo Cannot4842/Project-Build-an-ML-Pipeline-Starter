@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/04aa9cebef824d3f89b94d7c98a7ab74/artifacts
+end_time: 1716105624923
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 04aa9cebef824d3f89b94d7c98a7ab74
+run_name: calm-crane-237
+run_uuid: 04aa9cebef824d3f89b94d7c98a7ab74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716105564810
+status: 3
+tags: []
+user_id: westwingtech

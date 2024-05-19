@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4ecff5c116604fe4ae6f3c6dfb02f3f1/artifacts
+end_time: 1716106708456
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ecff5c116604fe4ae6f3c6dfb02f3f1
+run_name: redolent-lynx-56
+run_uuid: 4ecff5c116604fe4ae6f3c6dfb02f3f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716106705705
+status: 4
+tags: []
+user_id: westwingtech

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c1f043782f4e46a2a92fdbf9f5ac5a5e/artifacts
+end_time: 1716100769410
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1f043782f4e46a2a92fdbf9f5ac5a5e
+run_name: indecisive-cub-83
+run_uuid: c1f043782f4e46a2a92fdbf9f5ac5a5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716099930581
+status: 3
+tags: []
+user_id: westwingtech

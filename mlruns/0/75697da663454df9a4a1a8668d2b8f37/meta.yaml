@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/75697da663454df9a4a1a8668d2b8f37/artifacts
+end_time: 1716106852767
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75697da663454df9a4a1a8668d2b8f37
+run_name: burly-bass-587
+run_uuid: 75697da663454df9a4a1a8668d2b8f37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716106850186
+status: 4
+tags: []
+user_id: westwingtech
