@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/93ec28dfb81249c8ae306288fe60a82b/artifacts
+end_time: 1716110544591
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93ec28dfb81249c8ae306288fe60a82b
+run_name: likeable-roo-807
+run_uuid: 93ec28dfb81249c8ae306288fe60a82b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716110210391
+status: 4
+tags: []
+user_id: westwingtech

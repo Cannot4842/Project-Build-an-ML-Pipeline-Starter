@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/dbbbc86b71bb429f822a37f4ae9e8a49/artifacts
+end_time: 1716347513510
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dbbbc86b71bb429f822a37f4ae9e8a49
+run_name: upbeat-shrimp-437
+run_uuid: dbbbc86b71bb429f822a37f4ae9e8a49
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716347489546
+status: 3
+tags: []
+user_id: westwingtech

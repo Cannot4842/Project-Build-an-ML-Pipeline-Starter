@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/332d46ff1a534f4badb07259b4d0b447/artifacts
+end_time: 1716109678661
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 332d46ff1a534f4badb07259b4d0b447
+run_name: stylish-squirrel-121
+run_uuid: 332d46ff1a534f4badb07259b4d0b447
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716109677514
+status: 4
+tags: []
+user_id: westwingtech

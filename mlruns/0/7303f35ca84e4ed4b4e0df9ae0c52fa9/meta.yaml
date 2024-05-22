@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7303f35ca84e4ed4b4e0df9ae0c52fa9/artifacts
+end_time: 1716110544821
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7303f35ca84e4ed4b4e0df9ae0c52fa9
+run_name: big-auk-704
+run_uuid: 7303f35ca84e4ed4b4e0df9ae0c52fa9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716110206134
+status: 4
+tags: []
+user_id: westwingtech

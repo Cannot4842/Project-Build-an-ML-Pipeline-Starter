@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/514dc62ac9664e849be6debba3ab7a11/artifacts
+end_time: 1716109202485
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 514dc62ac9664e849be6debba3ab7a11
+run_name: rumbling-wolf-919
+run_uuid: 514dc62ac9664e849be6debba3ab7a11
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716109199869
+status: 4
+tags: []
+user_id: westwingtech
