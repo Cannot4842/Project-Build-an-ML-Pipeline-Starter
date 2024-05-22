@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/55cb05bceb8a43ac8887339521347d30/artifacts
+end_time: 1716358860892
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 55cb05bceb8a43ac8887339521347d30
+run_name: unequaled-stork-154
+run_uuid: 55cb05bceb8a43ac8887339521347d30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716358856286
+status: 4
+tags: []
+user_id: westwingtech

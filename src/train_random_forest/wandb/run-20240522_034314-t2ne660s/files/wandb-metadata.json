@@ -1,0 +1,61 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-05-22T07:43:14.678483",
+    "startedAt": "2024-05-22T07:43:14.313443",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "/Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/multirun/2024-05-22/03-40-10/3/rf_config.json",
+        "--max_tfidf_features",
+        "5",
+        "--output_artifact",
+        "random_forest_export"
+    ],
+    "state": "running",
+    "program": "/Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py",
+    "codePath": "src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/Cannot4842/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "86bf06e796195c143f8dd4efc36e9e7303eccbcc"
+    },
+    "email": "Taimoork14@outlook.com",
+    "root": "/Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter",
+    "host": "timi-mac",
+    "username": "westwingtech",
+    "executable": "/Users/westwingtech/anaconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3204,
+        "min": 600,
+        "max": 3204
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3204,
+            "min": 600,
+            "max": 3204
+        }
+    ],
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 12.543251037597656
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

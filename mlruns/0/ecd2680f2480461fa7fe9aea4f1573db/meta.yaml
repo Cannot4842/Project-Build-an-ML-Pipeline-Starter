@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ecd2680f2480461fa7fe9aea4f1573db/artifacts
+end_time: 1716358392367
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ecd2680f2480461fa7fe9aea4f1573db
+run_name: stately-frog-149
+run_uuid: ecd2680f2480461fa7fe9aea4f1573db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716358387806
+status: 4
+tags: []
+user_id: westwingtech

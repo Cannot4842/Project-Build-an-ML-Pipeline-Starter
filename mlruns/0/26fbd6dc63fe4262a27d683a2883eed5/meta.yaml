@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/26fbd6dc63fe4262a27d683a2883eed5/artifacts
+end_time: 1716356345892
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 26fbd6dc63fe4262a27d683a2883eed5
+run_name: bemused-sloth-404
+run_uuid: 26fbd6dc63fe4262a27d683a2883eed5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716356341075
+status: 4
+tags: []
+user_id: westwingtech

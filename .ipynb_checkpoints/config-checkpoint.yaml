@@ -1,5 +1,6 @@
 main:
   components_repository: "https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git#components"
+  repository_root: "/Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter"
   # All the intermediate files will be copied to this directory at the end of the run.
   # Set this to null if you are running in prod
   project_name: nyc_airbnb
@@ -15,6 +16,7 @@ data_check:
   min_price: 10  # Minimum price for the data validation
   max_price: 350  # Maximum price for the data validation
 modeling:
+  output_artifact: "random_forest_export"
   # Fraction of data to use for test (the remaining will be used for train and validation)
   test_size: 0.2
   # Fraction of remaining data to use for validation

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c839de1414bd48f5aa4e6fe4c3cc601a/artifacts
+end_time: 1716359380713
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c839de1414bd48f5aa4e6fe4c3cc601a
+run_name: masked-stork-777
+run_uuid: c839de1414bd48f5aa4e6fe4c3cc601a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716359376057
+status: 4
+tags: []
+user_id: westwingtech

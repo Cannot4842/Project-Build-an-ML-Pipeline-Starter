@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/eff1e672c898436eb021acbf47581b5e/artifacts
+end_time: 1716358025223
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eff1e672c898436eb021acbf47581b5e
+run_name: flawless-asp-752
+run_uuid: eff1e672c898436eb021acbf47581b5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716358020821
+status: 4
+tags: []
+user_id: westwingtech

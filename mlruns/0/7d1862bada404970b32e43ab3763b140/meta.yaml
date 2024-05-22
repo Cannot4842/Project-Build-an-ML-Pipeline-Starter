@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7d1862bada404970b32e43ab3763b140/artifacts
+end_time: 1716361852291
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7d1862bada404970b32e43ab3763b140
+run_name: loud-dog-553
+run_uuid: 7d1862bada404970b32e43ab3763b140
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716361849021
+status: 3
+tags: []
+user_id: westwingtech

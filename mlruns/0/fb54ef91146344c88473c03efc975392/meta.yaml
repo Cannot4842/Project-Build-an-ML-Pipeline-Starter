@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fb54ef91146344c88473c03efc975392/artifacts
+end_time: 1716363276732
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fb54ef91146344c88473c03efc975392
+run_name: sassy-carp-1000
+run_uuid: fb54ef91146344c88473c03efc975392
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716363064978
+status: 3
+tags: []
+user_id: westwingtech

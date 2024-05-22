@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/911eca63d385448a8910ed486f709509/artifacts
+end_time: 1716360442491
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 911eca63d385448a8910ed486f709509
+run_name: secretive-cat-211
+run_uuid: 911eca63d385448a8910ed486f709509
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716360441290
+status: 4
+tags: []
+user_id: westwingtech

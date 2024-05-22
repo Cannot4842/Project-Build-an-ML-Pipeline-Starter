@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5c6a7e9b74eb4c5f96582f72bc7211f1/artifacts
+end_time: 1716363887643
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c6a7e9b74eb4c5f96582f72bc7211f1
+run_name: sincere-tern-19
+run_uuid: 5c6a7e9b74eb4c5f96582f72bc7211f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716363791199
+status: 3
+tags: []
+user_id: westwingtech

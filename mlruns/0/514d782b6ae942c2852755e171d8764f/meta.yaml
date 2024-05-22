@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/514d782b6ae942c2852755e171d8764f/artifacts
+end_time: 1716367079473
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 514d782b6ae942c2852755e171d8764f
+run_name: debonair-snail-790
+run_uuid: 514d782b6ae942c2852755e171d8764f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716366851226
+status: 3
+tags: []
+user_id: westwingtech

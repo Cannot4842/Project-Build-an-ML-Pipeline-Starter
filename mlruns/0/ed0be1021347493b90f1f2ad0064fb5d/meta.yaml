@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ed0be1021347493b90f1f2ad0064fb5d/artifacts
+end_time: 1716363275521
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed0be1021347493b90f1f2ad0064fb5d
+run_name: nimble-moose-722
+run_uuid: ed0be1021347493b90f1f2ad0064fb5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716363274636
+status: 4
+tags: []
+user_id: westwingtech

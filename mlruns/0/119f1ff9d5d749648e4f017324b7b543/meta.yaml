@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/119f1ff9d5d749648e4f017324b7b543/artifacts
+end_time: 1716367079685
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 119f1ff9d5d749648e4f017324b7b543
+run_name: awesome-croc-138
+run_uuid: 119f1ff9d5d749648e4f017324b7b543
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716366846520
+status: 3
+tags: []
+user_id: westwingtech

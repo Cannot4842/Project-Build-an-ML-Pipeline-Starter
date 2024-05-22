@@ -96,32 +96,57 @@ def go(config: DictConfig):
                 )
             except Exception as e:
                 print(f"Error running data split: {e}")
-    
-
-
+                
         if "train_random_forest" in active_steps:
+    # Define the path for the random forest configuration JSON
+            rf_config_path = os.path.abspath("rf_config.json")
+            with open(rf_config_path, "w+") as fp:
+                    json.dump(dict(config["modeling"]["random_forest"].items()), fp)
+    
+   
+    # Execute the MLflow run command with parameters
+            try:
+                _ = mlflow.run(
+                    f"{config['main']['repository_root']}/src/train_random_forest",
+                    'main',
+                    parameters={
+                        "trainval_artifact": "trainval_data.csv:latest",
+                        "val_size": str(config["modeling"]["val_size"]),
+                        "random_seed": str(config["modeling"]["random_seed"]),
+                        "stratify_by": config["modeling"]["stratify_by"],
+                        "rf_config": rf_config_path,
+                        "max_tfidf_features": str(config["modeling"]["max_tfidf_features"]),
+                        "output_artifact": "random_forest_export"
+                    }
+                )
+            except Exception as e:
+                print(e)
 
-            # NOTE: we need to serialize the random forest configuration into JSON
-            rf_config = os.path.abspath("rf_config.json")
-            with open(rf_config, "w+") as fp:
-                json.dump(dict(config["modeling"]["random_forest"].items()), fp)  # DO NOT TOUCH
+                
 
-            # NOTE: use the rf_config we just created as the rf_config parameter for the train_random_forest
-            # step
-
-            ##################
-            # Implement here #
-            ##################
-
-            pass
 
         if "test_regression_model" in active_steps:
+            try:
+        # Define the path for the MLflow model with the "prod" tag
+                mlflow_model = "random_forest_export:prod"
 
-            ##################
-            # Implement here #
-            ##################
+        # Define the path for the test dataset artifact
+                test_dataset = "test_data.csv:latest"
 
-            pass
+        # Execute the MLflow run command with parameters
+                _ = mlflow.run(
+                    f"{config['main']['components_repository']}/test_regression_model",
+                    'main',
+                    parameters={
+                        "mlflow_model": mlflow_model,
+                        "test_dataset": test_dataset
+                    }
+                )
+
+            except Exception as e:
+                print(f"Error running data split: {e}")
+
+            
 
 
 if __name__ == "__main__":

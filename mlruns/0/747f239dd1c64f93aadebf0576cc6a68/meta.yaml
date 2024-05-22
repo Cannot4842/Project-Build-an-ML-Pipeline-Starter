@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/747f239dd1c64f93aadebf0576cc6a68/artifacts
+end_time: 1716363791080
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 747f239dd1c64f93aadebf0576cc6a68
+run_name: bold-vole-845
+run_uuid: 747f239dd1c64f93aadebf0576cc6a68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716363740332
+status: 3
+tags: []
+user_id: westwingtech

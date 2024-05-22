@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/westwingtech/Documents/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c19e43d4f5c8481d8627a90147d10d44/artifacts
+end_time: 1716363887944
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c19e43d4f5c8481d8627a90147d10d44
+run_name: capricious-goat-427
+run_uuid: c19e43d4f5c8481d8627a90147d10d44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716363605832
+status: 3
+tags: []
+user_id: westwingtech
