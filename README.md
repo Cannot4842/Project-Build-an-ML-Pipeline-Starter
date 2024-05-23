@@ -148,6 +148,9 @@ This will iterate over all the environments created by `mlflow` and remove them.
 Link of the Wandb report:
 https://wandb.ai/udacitycourse/nyc_airbnb/reports/nyc-airbnb--Vmlldzo4MDUxMDIw?accessToken=evgfjnlztll3tn71c2m5fe8jnck7sjrlp1k2xifnnqn91mf6g3fatzstsd7q9pos
 
+link of the github repo:
+https://github.com/Cannot4842/Project-Build-an-ML-Pipeline-Starter
+
 ## License
 
 [License](LICENSE.txt)
